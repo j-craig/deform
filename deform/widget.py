@@ -659,7 +659,7 @@ class DateTimeInputWidget(Widget):
         ("selectYears", True),
     )
     date_options = None
-    default_time_options = (("format", "h:i A"), ("interval", 30))
+    default_time_options = (("format", "HH:i"), ("interval", 30))
     time_options = None
 
     _pstruct_schema = SchemaNode(
